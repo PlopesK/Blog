@@ -3,16 +3,25 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { MenuTitleComponent } from './components/menu-title/menu-title.component';
+import { SmallCardComponent } from './components/cards/small-card/small-card.component';
+import { BigCardComponent } from './components/cards/big-card/big-card.component';
+import { HomeComponent } from './pages/home/home.component';
+import { CardsComponent } from './components/cards/cards.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuBarComponent,
+    MenuTitleComponent,
+    SmallCardComponent,
+    BigCardComponent,
+    HomeComponent,
+    CardsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
