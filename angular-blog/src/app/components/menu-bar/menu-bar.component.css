@@ -9,7 +9,7 @@ a {
 }
 
 .container_menu-bar > ul > li {
-  margin-right: 20px;
+  padding: 20px;
   list-style: none;
   text-transform: uppercase;
 }
