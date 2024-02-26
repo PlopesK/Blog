@@ -1,0 +1,11 @@
+.articles {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 992px) {
+  .articles {
+    flex-direction: column;
+  }
+}

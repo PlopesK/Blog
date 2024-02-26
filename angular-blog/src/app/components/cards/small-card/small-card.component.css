@@ -1,0 +1,31 @@
+.container_small-card {
+  border-bottom: 1px solid white;
+  margin: 20px;
+  width: 500px;
+}
+
+.container_small-card > a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: inherit;
+}
+
+.small-card_photo > img {
+  width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.small-card_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .container_small-card {
+    margin: 10px;
+    width: 100%;
+  }
+}

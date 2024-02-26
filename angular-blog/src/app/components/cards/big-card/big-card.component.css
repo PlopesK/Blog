@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container_big-card {
+  margin: 20px;
+  width: 400px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.big-card_photo img {
+  width: 100%;
+}
+
+.big-card_title {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.big-card_description > p {
+  margin-top: 10px;
+  color: gray;
+}
+
+@media screen and (max-width: 992px) {
+  .container_big-card {
+    margin: 10px;
+    width: 100%;
+  }
+}
